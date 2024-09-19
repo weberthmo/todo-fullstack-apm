@@ -44,7 +44,7 @@ O frontend não possui dependências externas e pode ser usado diretamente com o
 node server.js
 ```
 
-O servidor estará disponível em http://localhost:3000.
+O servidor estará disponível em http://localhost:4000.
 
 ### Inicializar o Frontend
 
@@ -55,7 +55,7 @@ cd frontend
 ```
 
 - Abra o arquivo index.html em um navegador web.
-- O frontend se conectará ao backend em http://localhost:3000.
+- O frontend se conectará ao backend em http://localhost:4000.
 
 ## Caminhos dos Arquivos
 
@@ -74,7 +74,7 @@ cd frontend
 
 ### Criar uma Nova Tarefa
 
-- URL: http://localhost:3000/todos
+- URL: http://localhost:4000/todos
 - Método: POST
 - Corpo da Requisição:
 
@@ -87,12 +87,12 @@ cd frontend
 
 ### Obter Todas as Tarefas
 
-- URL: http://localhost:3000/todos
+- URL: http://localhost:4000/todos
 - Método: GET
 
 ### Atualizar uma Tarefa
 
-- URL: http://localhost:3000/todos/:id
+- URL: http://localhost:4000/todos/:id
 - Método: PUT
 - Corpo da Requisição:
 
@@ -105,7 +105,7 @@ cd frontend
 
 ### Excluir uma Tarefa
 
-- URL: http://localhost:3000/todos/:id
+- URL: http://localhost:4000/todos/:id
 - Método: DELETE
 
 ## Observações
