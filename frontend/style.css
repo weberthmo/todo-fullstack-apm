@@ -1,0 +1,101 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #e3f2fd; /* Azul claro de fundo */
+  color: #333; /* Cor padrão do texto */
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px; /* Limitando a largura máxima */
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1e88e5; /* Cor azul escuro para o título */
+}
+
+#todo-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#todo-form input {
+  padding: 10px;
+  font-size: 1.1rem;
+  border: 2px solid #1e88e5; /* Borda azul escuro */
+  border-radius: 5px;
+  width: 70%;
+  margin-right: 10px;
+}
+
+#todo-form button {
+  padding: 10px 15px;
+  font-size: 1.1rem;
+  background-color: #1e88e5; /* Botão azul escuro */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#todo-form button:hover {
+  background-color: #1565c0; /* Cor mais escura ao passar o mouse */
+}
+
+#todo-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 15px;
+  background-color: #e1f5fe; /* Azul claro para tarefas */
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1rem;
+  border-left: 5px solid #1e88e5; /* Barra de cor azul na esquerda */
+  border-radius: 5px;
+}
+
+li .completed {
+  background-color: #c8e6c9; /* Verde claro para tarefas concluídas */
+  border-left: 5px solid #43a047; /* Barra verde para concluídas */
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #757575; /* Cinza para tarefas concluídas */
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 1rem;
+  background-color: #f44336; /* Botão vermelho para deletar */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.complete-btn {
+  background-color: #4caf50; /* Botão verde para concluir tarefa */
+}
+
+button:hover {
+  opacity: 0.8; /* Leve transparência ao passar o mouse */
+}
