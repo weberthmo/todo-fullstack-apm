@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:3000/todos";
+const apiUrl = "http://localhost:4000/todos";
 
 document.getElementById("todo-form").addEventListener("submit", async (e) => {
   e.preventDefault();
